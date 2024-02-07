@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ap';
+  data='recipe';
+  onEvent(featured:string){
+        this.data=featured;
+  }
 }
